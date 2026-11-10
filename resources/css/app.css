@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+
+:root {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #143747;
+    background: #f2f9fb;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    --asgev-teal: #0e8a9a;
+    --asgev-dark: #0b4f6c;
+    --asgev-canvas: #f2f9fb;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: var(--asgev-canvas);
+}
+
+button,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+    color: white;
+    background: var(--asgev-teal);
+}

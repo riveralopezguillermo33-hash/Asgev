@@ -1,0 +1,18 @@
+{
+  "name": "ASGEV",
+  "short_name": "ASGEV",
+  "description": "Aprende hoy, lidera mañana",
+  "lang": "es",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F2F9FB",
+  "theme_color": "#0E8A9A",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
